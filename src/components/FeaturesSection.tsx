@@ -5,22 +5,22 @@ const features = [
   {
     title: 'Intelligent Analytics',
     description: 'Transform raw data into actionable insights with our AI-powered analytics platform. Identify trends and make data-driven decisions.',
-    icon: <Laptop className="h-10 w-10 text-indigo-600" />,
+    icon: <Laptop className="h-10 w-10 text-green-600" />,
   },
   {
     title: 'Enhanced Security',
     description: 'Keep your data safe with our industry-leading security protocols. Enterprise-grade protection for businesses of all sizes.',
-    icon: <Shield className="h-10 w-10 text-indigo-600" />,
+    icon: <Shield className="h-10 w-10 text-green-600" />,
   },
   {
     title: 'Lightning Performance',
     description: 'Experience blazing-fast performance with our optimized platform. No more waiting for reports or dashboards to load.',
-    icon: <Zap className="h-10 w-10 text-indigo-600" />,
+    icon: <Zap className="h-10 w-10 text-green-600" />,
   },
   {
     title: 'Real-time Monitoring',
     description: 'Stay on top of your metrics with real-time monitoring. Get instant notifications when something requires your attention.',
-    icon: <AlertCircle className="h-10 w-10 text-indigo-600" />,
+    icon: <AlertCircle className="h-10 w-10 text-green-600" />,
   },
 ];
 
@@ -66,7 +66,7 @@ const FeaturesSection = () => {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-2">
+              <div className="bg-gradient-to-r from-green-100 to-green-100 rounded-xl p-2">
                 <img 
                   src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                   alt="Seamless Integration" 

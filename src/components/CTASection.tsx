@@ -3,7 +3,7 @@ import { Mail } from 'lucide-react';
 
 const CTASection = () => {
   return (
-    <section id="contact" className="py-20 bg-indigo-50">
+    <section id="contact" className="py-20 bg-green-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -20,7 +20,7 @@ const CTASection = () => {
                     <input 
                       type="text" 
                       id="name" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" 
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500" 
                       placeholder="Your name"
                     />
                   </div>
@@ -29,7 +29,7 @@ const CTASection = () => {
                     <input 
                       type="email" 
                       id="email" 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" 
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500" 
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -38,13 +38,13 @@ const CTASection = () => {
                     <textarea 
                       id="message" 
                       rows={4} 
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500" 
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500" 
                       placeholder="How can we help you?"
                     ></textarea>
                   </div>
                   <button 
                     type="submit" 
-                    className="w-full bg-indigo-600 text-white py-3 px-4 rounded-md hover:bg-indigo-700 transition-colors flex items-center justify-center font-medium"
+                    className="w-full bg-green-600 text-white py-3 px-4 rounded-md hover:bg-green-700 transition-colors flex items-center justify-center font-medium"
                   >
                     <Mail className="mr-2 h-5 w-5" />
                     Send Message
@@ -67,7 +67,7 @@ const CTASection = () => {
                   </p>
                   <a 
                     href="#" 
-                    className="inline-block bg-gray-100 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-200 transition-colors font-medium"
+                    className="inline-block bg-green-100 text-green-800 py-2 px-4 rounded-md hover:bg-green-200 transition-colors font-medium"
                   >
                     Learn More
                   </a>
