@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <a href="#" className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              Luecine.io
+              creator labs
             </a>
             <p className="mt-2 text-gray-400">
               Illuminate your digital experience with powerful, actionable insights.
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© {new Date().getFullYear()} Luecine.io. All rights reserved.</p>
+          <p className="text-gray-400">© {new Date().getFullYear()} creator labs. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <select className="bg-gray-800 text-gray-400 px-3 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
               <option>English</option>

@@ -13,7 +13,7 @@ const HeroSection = () => {
                 <span className="block bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">Digital Experience</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-                Luecine empowers businesses with intelligent solutions to transform data into actionable insights. Discover a new way to illuminate your digital journey.
+                creator labs empowers businesses with intelligent solutions to transform data into actionable insights. Discover a new way to illuminate your digital journey.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="#" className="bg-indigo-600 text-white px-8 py-3 rounded-md hover:bg-indigo-700 transition-colors text-center font-medium flex items-center justify-center">
@@ -39,7 +39,7 @@ const HeroSection = () => {
               <div className="bg-white rounded-xl shadow-xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Luecine Dashboard" 
+                  alt="creator labs Dashboard" 
                   className="w-full object-cover"
                 />
               </div>
