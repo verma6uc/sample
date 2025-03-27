@@ -67,7 +67,7 @@ const PricingSection = () => {
               key={index} 
               className={`rounded-xl p-8 ${
                 plan.highlighted 
-                  ? 'bg-gradient-to-b from-green-500 to-green-600 shadow-xl transform scale-105 -mt-4 mb-4' 
+                  ? 'bg-gradient-to-b from-blue-500 to-blue-600 shadow-xl transform scale-105 -mt-4 mb-4' 
                   : 'bg-white border border-gray-200'
               }`}
             >
@@ -78,18 +78,18 @@ const PricingSection = () => {
                 <span className={`text-4xl font-bold ${plan.highlighted ? 'text-white' : 'text-gray-900'}`}>
                   {plan.price}
                 </span>
-                <span className={`ml-2 ${plan.highlighted ? 'text-green-100' : 'text-gray-600'}`}>
+                <span className={`ml-2 ${plan.highlighted ? 'text-blue-100' : 'text-gray-600'}`}>
                   {plan.period}
                 </span>
               </div>
-              <p className={`mb-6 ${plan.highlighted ? 'text-green-100' : 'text-gray-600'}`}>
+              <p className={`mb-6 ${plan.highlighted ? 'text-blue-100' : 'text-gray-600'}`}>
                 {plan.description}
               </p>
               <ul className="space-y-3 mb-8">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
                     <Check className={`h-5 w-5 mr-2 flex-shrink-0 ${
-                      plan.highlighted ? 'text-green-100' : 'text-green-600'
+                      plan.highlighted ? 'text-blue-100' : 'text-blue-600'
                     }`} />
                     <span className={plan.highlighted ? 'text-white' : 'text-gray-700'}>
                       {feature}
@@ -101,8 +101,8 @@ const PricingSection = () => {
                 href="#" 
                 className={`block text-center py-3 px-4 rounded-md font-medium ${
                   plan.highlighted 
-                    ? 'bg-white text-green-600 hover:bg-green-50' 
-                    : 'bg-green-600 text-white hover:bg-green-700'
+                    ? 'bg-white text-blue-600 hover:bg-blue-50' 
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
                 } transition-colors`}
               >
                 {plan.cta}
@@ -114,7 +114,7 @@ const PricingSection = () => {
         <div className="mt-16 max-w-3xl mx-auto text-center">
           <p className="text-gray-600 mb-4">All plans include a 14-day free trial. No credit card required.</p>
           <p className="text-gray-600">
-            Need something different? <a href="#contact" className="text-green-600 font-medium">Contact us</a> for a custom solution.
+            Need something different? <a href="#contact" className="text-blue-600 font-medium">Contact us</a> for a custom solution.
           </p>
         </div>
       </div>

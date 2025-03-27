@@ -5,22 +5,22 @@ const features = [
   {
     title: 'Intelligent Analytics',
     description: 'Transform raw data into actionable insights with our AI-powered analytics platform. Identify trends and make data-driven decisions.',
-    icon: <Laptop className="h-10 w-10 text-green-600" />,
+    icon: <Laptop className="h-10 w-10 text-blue-600" />,
   },
   {
     title: 'Enhanced Security',
     description: 'Keep your data safe with our industry-leading security protocols. Enterprise-grade protection for businesses of all sizes.',
-    icon: <Shield className="h-10 w-10 text-green-600" />,
+    icon: <Shield className="h-10 w-10 text-blue-600" />,
   },
   {
     title: 'Lightning Performance',
     description: 'Experience blazing-fast performance with our optimized platform. No more waiting for reports or dashboards to load.',
-    icon: <Zap className="h-10 w-10 text-green-600" />,
+    icon: <Zap className="h-10 w-10 text-blue-600" />,
   },
   {
     title: 'Real-time Monitoring',
     description: 'Stay on top of your metrics with real-time monitoring. Get instant notifications when something requires your attention.',
-    icon: <AlertCircle className="h-10 w-10 text-green-600" />,
+    icon: <AlertCircle className="h-10 w-10 text-blue-600" />,
   },
 ];
 
@@ -58,7 +58,7 @@ const FeaturesSection = () => {
                   'Automated workflow triggers and actions'
                 ].map((item, i) => (
                   <li key={i} className="flex items-start">
-                    <Check className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" />
+                    <Check className="h-6 w-6 text-blue-500 mr-2 flex-shrink-0" />
                     <span className="text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -66,7 +66,7 @@ const FeaturesSection = () => {
             </div>
             
             <div className="relative">
-              <div className="bg-gradient-to-r from-green-100 to-green-100 rounded-xl p-2">
+              <div className="bg-gradient-to-r from-blue-100 to-blue-100 rounded-xl p-2">
                 <img 
                   src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
                   alt="Seamless Integration" 

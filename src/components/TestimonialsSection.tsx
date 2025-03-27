@@ -23,7 +23,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-b from-white to-green-50">
+    <section id="testimonials" className="py-20 bg-gradient-to-b from-white to-blue-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-4">Trusted by Innovative Teams</h2>
@@ -49,13 +49,13 @@ const TestimonialsSection = () => {
           ))}
         </div>
         
-        <div className="mt-16 max-w-5xl mx-auto bg-green-600 rounded-xl shadow-xl overflow-hidden">
+        <div className="mt-16 max-w-5xl mx-auto bg-blue-600 rounded-xl shadow-xl overflow-hidden">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-8 md:p-12 flex items-center">
               <div>
                 <h3 className="text-2xl font-bold text-white mb-4">96% of customers report significant ROI within 6 months</h3>
-                <p className="text-green-100 mb-6">Our customer success team works with you from day one to ensure you're getting maximum value from the platform.</p>
-                <a href="#" className="inline-block bg-white text-green-600 px-6 py-3 rounded-md font-medium hover:bg-green-50 transition-colors">
+                <p className="text-blue-100 mb-6">Our customer success team works with you from day one to ensure you're getting maximum value from the platform.</p>
+                <a href="#" className="inline-block bg-white text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">
                   Read Success Stories
                 </a>
               </div>
